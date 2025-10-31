@@ -75,11 +75,12 @@ const rules: KarabinerRules[] = [
       g: app("Google Chrome"),
       c: app("Notion Calendar"),
       v: app("Zed"),
+      y: app("Youtube"),
       d: app("Discord"),
       s: app("Slack"),
       e: app("Superhuman"),
       n: app("Notion"),
-      t: app("Terminal"),
+      i: app("iterm"),
       // Open todo list managed via *H*ypersonic
       h: open(
         "notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026"
@@ -90,7 +91,7 @@ const rules: KarabinerRules[] = [
       r: app("Reflect"),
       f: app("Finder"),
       // "i"Message
-      i: app("Texts"),
+      t: app("Texts"),
       p: app("Spotify"),
       a: app("iA Presenter"),
       // "W"hatsApp has been replaced by Texts
